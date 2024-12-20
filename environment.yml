@@ -10,7 +10,7 @@ dependencies:
   - nbqa
   - numpy
   - pandas
-  - python
+  - python=3.11
   - simpy
   - sim-tools
   - xeus-python
