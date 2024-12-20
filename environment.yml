@@ -3,10 +3,13 @@ channels:
   - https://repo.mamba.pm/emscripten-forge
   - conda-forge
 dependencies:
-  - python
-  - xeus-python
+  - black
+  - flake8
   - ipycanvas
-  - simpy
+  - matplotlib
+  - nbqa
   - numpy
   - pandas
-  - matplotlib
+  - python
+  - simpy
+  - xeus-python
