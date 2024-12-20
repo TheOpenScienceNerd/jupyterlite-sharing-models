@@ -2,7 +2,7 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: Simpy JupyterLite Template
+title: OpenScienceNerd JupyterLite Template
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
@@ -10,14 +10,9 @@ type: software
 authors:
   - given-names: Thomas
     family-names: Monks
-    affiliation: University of Exeter
     orcid: 'https://orcid.org/0000-0003-2631-4481'
-  - given-names: Alison
-    family-names: Harper
-    affiliation: University of Exeter
-    orcid: 'https://orcid.org/0000-0001-5274-5037'
 repository-code: >-
-  https://github.com/pythonhealthdatascience/stars-simpy-jupterlite
+  https://github.com/TheOpenScienceNerd/jupyterlite-sharing-models
 keywords:
   - simpy
   - jupyterlite
