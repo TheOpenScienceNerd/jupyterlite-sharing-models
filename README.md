@@ -1,42 +1,38 @@
-[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://pythonhealthdatascience.github.io/stars-simpy-jupterlite/notebooks/?path=01_urgent_care_model.ipynb)
+[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://theopensciencenerd.github.io/jupyterlite-sharing-models)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10987817.svg)](https://doi.org/10.5281/zenodo.10987817)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/release/python-3100/)
-[![License: MIT](https://img.shields.io/badge/ORCID-0000--0001--5274--5037-brightgreen)](https://orcid.org/0000-0001-5274-5037)
 [![License: MIT](https://img.shields.io/badge/ORCID-0000--0003--2631--4481-brightgreen)](https://orcid.org/0000-0003-2631-4481)
 
 #  JuypterLite template for sharing your computer models
 
 ## 1. Overview
 
+This repository provides learning materials for JupyterLite: the Jupyter-Lab IDE powered by WebAssembly. It specifically focus on an implementation using xeus-python.
 
+> Try it in your browser now: https://theopensciencenerd.github.io/jupyterlite-sharing-models
 
-> Try it in your browser now: 
+### 1.1. Use cases
 
-### 1.1. Use case
-
-* A researcher wishes to share a runnable version of a simulation model with their publication (e.g. written in `simpy`).  The code allows others to replicate the simulation results, tables and charts in a paper and allows others to reuse the model.
-* The researcher wants the model to be immediately usable. Users should not need to install python, `simpy` or any dependencies.
+* A data science researcher wishes to share a runnable version of a computational model used in a published journal article. The code allows others to replicate the models results, tables and charts in a paper and allows others to reuse the model.
+* The researcher wants the model to be immediately usable. Users should not need to install python or any other dependencies.
 * The researcher either wants to reduce load on online open science compute infrastructure (e.g. mybinder.org) or does not want to rely on it. 
 * Users may want to use a version of their own data due to governance, ethics or other reasons **cannot upload the data to a remote instance of the model.**
 * Loading the model is as simple as clicking a URL.
 
 ### 1.2. Credits ✨
 
-> We would like to thank the [JupterLite](https://github.com/jupyterlite/jupyterlite) and [xeus-python](https://github.com/jupyter-xeus/xeus-python) developers for making this work possible. This discrete-event simulation focussed repository was based on the learning materials and template provided by [Jupyterlite xeus-python demo](https://github.com/jupyterlite/xeus-python-demo) and [tutorial given at PyData 2023](https://www.youtube.com/watch?v=WXRslU9D3bo) by Jeremy Tuloup.
+> We would like to thank the [JupterLite](https://github.com/jupyterlite/jupyterlite) and [xeus-python](https://github.com/jupyter-xeus/xeus-python) developers for making this work possible. This discrete-event simulation model used in this repository was based on the learning materials and template provided by [Jupyterlite xeus-python demo](https://github.com/jupyterlite/xeus-python-demo) and [tutorial given at PyData 2023](https://www.youtube.com/watch?v=WXRslU9D3bo) by Jeremy Tuloup.
 
 ### 1.3. Citation
 
-If you use the template in your work we would greatly appreciate a citation when you publish your work. 
+If you use the template in your work we would greatly appreciate a citation when you publish your work. **Please also cite the JupyterLite Team.**
 
-> Monks, T., & Harper, A. (2024). Simpy JupyterLite Template (v0.1.0). Zenodo. https://doi.org/10.5281/zenodo.10987817
+> Monks, T.,(2024). TheOpenScienceNerd JupyterLite Template (v0.1.0). Zenodo. https://doi.org/10.5281/zenodo.10987817
 
 ```
-@software{monks_harper_jupyterlite_template,
-  author       = {Monks, Thomas and
-                  Harper, Alison},
-  title        = {Simpy JupyterLite Template},
-  month        = apr,
+@software{osnerd_jupyterlite_template,
+  author       = {Monks, Thomas},
+  title        = {JupyterLite Template},
+  month        = Dec,
   year         = 2024,
   publisher    = {Zenodo},
   version      = {v0.1.0},
@@ -44,7 +40,6 @@ If you use the template in your work we would greatly appreciate a citation when
   url          = {https://doi.org/10.5281/zenodo.10987817}
 }
 ```
-
 
 ## 2. The example model included
 
@@ -58,12 +53,7 @@ In summary, we adapt a textbook example from Nelson (2013): a terminating discre
 
 > *Nelson. B.L. (2013). [Foundations and methods of stochastic simulation](https://www.amazon.co.uk/Foundations-Methods-Stochastic-Simulation-International/dp/1461461596/ref=sr_1_1?dchild=1&keywords=foundations+and+methods+of+stochastic+simulation&qid=1617050801&sr=8-1). Springer.*
 
-## 3. Try the example DES in your browser
-
-* Jupyterlab: https://pythonhealthdatascience.github.io/stars-simpy-jupterlite
-* Classic notebook: https://pythonhealthdatascience.github.io/stars-simpy-jupterlite/notebooks/?path=01_urgent_care_model.ipynb
-
-## 4. Using the template to create a new repo.
+## 3. Using the template to create a new repo.
 
 > There are three steps: i.) create a new repo form the template; ii.) modify you repo settings so that GitHub pages are built from Actions.  iii.) Commit changes and trigger the GitHub Action and deployment. We recommend reading all instructions first.
 
@@ -82,11 +72,11 @@ The JuypterLite interactive website is built from GitHub actions.  **In the newl
 
 ![Deploy your own](img/actions.gif)
 
-By default the build is trigged on any commit to the `main` branch.  Push a small commit and it will trigger the build.  This will take a few minutes.  Your site will be published under https://{USERNAME}.github.io/{DEMO_REPO_NAME}
+By default the build is triggered on any commit to the `main` branch.  Push a small commit and it will trigger the build.  This will take a few minutes.  Your site will be published under https://{USERNAME}.github.io/{DEMO_REPO_NAME}
 
-## 5. How to install extra packages supporting your DES model. 📦
+## 4. How to install extra packages. 📦
 
-The repo contains two environment files. To install more dependencies for your DES model and analysis you need to edit the ``environment.yml`` file.
+The repo contains two environment files. To install more dependencies for your model and analysis you need to edit the ``environment.yml`` file.
 
 The template ``environment.yml`` is as follows:
 
@@ -108,8 +98,8 @@ dependencies:
 **Key points:**
 
 * There are two channels in use. 
-  * `encription-forge` contains specific versions of the packages for web assembly These include `numpy` `pandas`, and `matplotlib`. Other popular packages include `scipy`, `scikit-learn` and `pytest`.
-  * `conda-forge` for other installs you can use conda-forge.  Only ``no-arch`` packages from ``conda-forge`` can be installed (simpy qualifies)
+  * `enscription-forge` contains specific versions of the packages for web assembly These include `numpy` `pandas`, and `matplotlib`. Other popular packages include `scipy`, `scikit-learn` and `pytest`.
+  * `conda-forge` for other installs you can use conda-forge.  Only ``no-arch`` packages from ``conda-forge`` can be installed. For example above the package simpy is no-arch.  **If your build fails** then a good thing to check is if all packages are ``no-arch``.
 * Note that `numpy`, `pandas` and `matplotlib` have specific versions available on `enscription-forge`. For this reason we recommend not including the package version number.
 * `simpy` is installed from `conda-forge` we were therefore able to freeze the version to 4.1.1 to aid reproducibility.
 * At the time of writing the xeus-python kernal will use python 3.11.3
@@ -127,25 +117,6 @@ dependencies:
   - xeus-python
   - ipycanvas
   - simpy=4.1.1
-  - numpy
-  - pandas
-  - matplotlib
-  - plotly
-  - scipy
-```
-
-If you wanted to use an alternative simulation package to `simpy` this would need to be available on `conda-forge` and be ``no-arch``.  An example package is `salabim`.  A modification of the enviroment is:
-
-
-```yml
-name: xeus-python-kernel
-channels:
-  - https://repo.mamba.pm/emscripten-forge
-  - conda-forge
-dependencies:
-  - xeus-python
-  - ipycanvas
-  - salabim
   - numpy
   - pandas
   - matplotlib
