@@ -26,18 +26,18 @@ This repository provides learning materials for JupyterLite: the Jupyter-Lab IDE
 
 If you use the template in your work we would greatly appreciate a citation when you publish your work. **Please also cite the JupyterLite Team.**
 
-> Monks, T.,(2024). TheOpenScienceNerd JupyterLite Template (v0.1.0). Zenodo. https://doi.org/10.5281/zenodo.10987817
+> Monks, T.,(2024). TheOpenScienceNerd JupyterLite Template (v0.1.0). Zenodo. https://doi.org/10.5281/zenodo.14537478
 
 ```
 @software{osnerd_jupyterlite_template,
   author       = {Monks, Thomas},
-  title        = {JupyterLite Template},
+  title        = {TheOpenScienceNerd JupyterLite Template},
   month        = Dec,
   year         = 2024,
   publisher    = {Zenodo},
   version      = {v0.1.0},
-  doi          = {10.5281/zenodo.10987817},
-  url          = {https://doi.org/10.5281/zenodo.10987817}
+  doi          = {10.5281/zenodo.14537478},
+  url          = {https://doi.org/10.5281/zenodo.14537478}
 }
 ```
 
