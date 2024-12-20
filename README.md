@@ -43,9 +43,9 @@ If you use the template in your work we would greatly appreciate a citation when
 
 ## 2. The example model included
 
-The `simpy` model is adapted from [Monks and Harper (2023)](https://github.com/pythonhealthdatascience/stars-simpy-example-docs)
+The `simpy` model is adapted from [Monks, Harper and Mustafee (2024)](https://www.tandfonline.com/doi/full/10.1080/17477778.2024.2347882?src=exp-mr)
 
-> Monks, T., & Harper, A. (2023). Towards Sharing Tools and Artifacts for Reusable Simulation: example enhanced documentation for a simpy model. (v1.1.0). Zenodo. https://doi.org/10.5281/zenodo.10054063
+> Monks, T., Harper, A., & Mustafee, N. (2024). Towards sharing tools and artefacts for reusable simulations in healthcare. Journal of Simulation, 1–20. https://doi.org/10.1080/17477778.2024.2347882
 
 Full documentation of this model is available in our [JupyterBook](https://pythonhealthdatascience.github.io/stars-simpy-example-docs)
 
