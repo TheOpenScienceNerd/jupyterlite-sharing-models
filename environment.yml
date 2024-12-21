@@ -4,11 +4,9 @@ channels:
   - conda-forge
 dependencies:
   - ipycanvas
-  - jinja2
   - matplotlib
-  - numpy
+  - numpy<2
   - pandas
   - python=3.11
   - simpy
-  - sim-tools
   - xeus-python
