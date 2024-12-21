@@ -4,6 +4,7 @@ channels:
   - conda-forge
 dependencies:
   - ipycanvas
+  - jinja2
   - matplotlib
   - numpy
   - pandas
