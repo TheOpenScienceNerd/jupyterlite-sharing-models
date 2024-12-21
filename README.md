@@ -6,7 +6,15 @@
 
 ## 1. Overview
 
-This repository provides learning materials for JupyterLite: the Jupyter-Lab IDE powered by WebAssembly. It specifically focus on an implementation using xeus-python.
+This repository provides learning materials for JupyterLite: the Jupyter-Lab IDE powered by WebAssembly. It specifically focus on an implementation using `xeus-python`.
+
+Packages available to you in the JupyterLite Website are:
+
+* `matplotlib`
+* `numpy`
+* `pandas`
+* `simpy`
+* `sim-tools`
 
 > Try it in your browser now: https://theopensciencenerd.github.io/jupyterlite-sharing-models
 
