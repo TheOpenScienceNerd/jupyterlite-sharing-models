@@ -14,7 +14,6 @@ Packages available to you in the JupyterLite Website are:
 * `numpy`
 * `pandas`
 * `simpy`
-* `sim-tools`
 
 > Try it in your browser now: https://theopensciencenerd.github.io/jupyterlite-sharing-models
 
